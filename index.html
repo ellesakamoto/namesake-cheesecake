@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cheesecake Store, Namesake Cheesecake">
+    <meta name="author" content="Elle Sakamoto">
+
+    <title>Namesake Cheesecake</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Hind:400,300,500,600,700' rel='stylesheet' type='text/css'>    
+    <link href='https://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="pt-50 pt-7 text-center"><img src="img/namesake-cr.png"></div>
+    <p class="text-center mt-40 mt-6 mb-10 type-space">425 El Camino Real, Menlo Park, CA 94025 / (650) 833-9529</p>
+    <p class="text-center mt--7">M - F : 10am - 6pm / Weekend : Pick up by appointment</p>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#order">Order</a>
+                    </li>
+                    <li>
+                        <a href="#event">Order for event</a>
+                    </li>
+                    <li>
+                        <a href="#about">History</a>
+                    </li>
+                    <li>
+                        <a href="#more-pics">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#faq">Help</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                           <div class="item active">
+                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="cheesecake1">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="cheesecake1">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="cheesecake1">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-4.jpg" alt="cheesecake1">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-5.jpg" alt="cheesecake1">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                     <!--<div class="row">
+                        <div class="col-md-4 mt-20">
+                        </div>
+                        <div class="col-md-4">
+                            <h2 class="brand-before">
+                                <small>Welcome to</small>
+                            </h2>
+                            <h1 class="brand-name"><a href="#order"><img src="img/namesake-cr.png"></a></h1>
+                            <hr class="tagline-divider">
+                            <h2>
+                            <small>By
+                            <strong>Cherith Spicer  650.833.9529</strong>
+                            </small></h2>
+                        </div>
+                        <div class="col-md-4 sp-top-25">
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        <section id="order">
+            <div class="row">
+                <div class="box">
+                    <div class="col-lg-12 col-md-12">
+                    <hr>
+                    <h1 class="intro-text text-center menu">Order</h1>                
+                    <p class="text-center pt-20 mb-20 type-space"><a href="tel://1-650-833-9529" class="">+1 (650) 833-9529</a> &nbsp;/ &nbsp;<a href="mailto:cherith@namesakecheesecake.com" class="">cherith@namesakecheesecake.com</a></p>
+                    <p class="text-center mt-15 pl-10 pr-10">Please pre-order <strong>48 business hours in advance</strong>.</p>
+                    <p class="text-center text-small mb-30"> Cakes and slices available for walk-ins. *Limited quantity.</p>
+                    <br>
+                    <hr>
+                    <h2 class="text-center mt-15 menu mb-20">Our Cheesecakes</h2>
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 text-center mb-20">
+                            <p>A layer of graham cracker crust, a cream cheese layer, topped with a layer of sour cream and sugar. Each layer is specially created according to the original recipe over a secret two day process. The result? The most memorable cheesecake experience you have ever had.</p>
+                        </div>
+                    </div>    
+                    <div class="row pt-5">
+                        <div class="col-md-12 col-sm-12 mb-5    "><img src="img/traditional.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+                    </div>
+                    <br>
+                </div>
+                <div class="row mr-150 ml-150 pt-20">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="box-sm">
+                            <h3 class="namesake-primary text-center menu">Traditional Cheesecake</h3>
+                            <hr>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-12 col-sx-12">
+                                    <ul class="topping">
+                                        <li>Fruit Garnish on top</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-9 col-lg-9 col-sm-12 col-sx-12">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-sx-12">                                                 
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                                                            <img src="img/6inch.png">
+                                                        </div>
+                                                        <div class="col-md-6 col-sm-6 col-xs-6 mt-30 ">
+                                                            <p class="primary">6 inches:</p>
+                                                            <p class="bold">$25</p>
+                                                            <p class="mt-5">Gluten Free - <b>$30</b></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-sx-12">    
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-sm-6 col-xs-6  text-right">
+                                                            <img src="img/9inch.png">
+                                                        </div>
+                                                        <div class="col-md-6 col-sm-6 col-xs-6 mt-30 pl-10">
+                                                            <p class="primary">9 inches:</p>
+                                                            <p class=" bold">$35</p>
+                                                            <p class=" mt-5">Gluten Free - <b>$42</b></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mr-150 ml-150 pt-20">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="box-sm">
+                            <h3 class="namesake-primary text-center menu">Candy Topping</h3>
+                            <hr>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-12 col-sx-12">
+                                    <ul class="topping">
+                                        <li>Oreo Cookie</li>
+                                        <li>Nutella</li>
+                                        <li>Snickers</li>
+                                        <li>Reese's</li>
+                                        <li>Holiday Candy</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-9 col-lg-9 col-sm-12 col-sx-12">
+                                    <div class="row">
+                                       <div class="col-md-6 col-sm-6">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-sx-12">   
+                                                    <div class="row">
+                                                        <div class="col-md-5 col-sm-5 col-xs-5">
+                                                            <img src="img/6inch-candy.gif">
+                                                        </div>
+                                                        <div class="col-md-7 col-sm-7 col-xs-7 mt-30 pl-10">    
+                                                            <p class="primary">6 inches</p>
+                                                            <p class=" bold">$28</p>
+                                                            <p class=" mt-5">Gluten Free - <b>$33</b></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-sx-12">    
+                                                    <div class="row">
+                                                        <div class="col-md-5 col-sm-5 col-xs-5">
+                                                            <img src="img/9inch-candy.gif">
+                                                        </div>
+                                                        <div class="col-md-7 col-sm-7 col-xs-7 mt-30 pl-10"> 
+                                                            <p class="primary">9 inches</p>
+                                                            <p class=" bold">$40</p>
+                                                            <p class=" mt-5">Gluten Free - <b>$47</b></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mr-150 ml-150 pt-20">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="box-sm">
+                            <h3 class="namesake-primary text-center menu">Homemade Topping</h3>
+                            <hr>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-12 col-sx-12">
+                                    <ul class="topping">
+                                        <li>Raspberry</li>
+                                        <li>Coulis</li>
+                                        <li>Caramel</li>
+                                        <li>Strawberry</li>
+                                        <li>Milk Chocolate Sauce</li>
+                                        <li></li>
+                                        <li>** Seasonal Fruit <small>(**Inquire pricing)</small></li>
+                                        <li>** Turtle  <small>(**Inquire pricing)</small></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-9 col-lg-9 col-sm-12 col-sx-12">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-sx-12">     
+                                                    <div class="row">
+                                                        <div class="col-md-5 col-sm-5 col-xs-5">
+                                                            <img src="img/6inch-homemade.gif">
+                                                        </div>
+                                                        <div class="col-md-7 col-sm-7 col-xs-7 mt-30 pl-10">                    
+                                                            <p class="primary">6 inches</p>
+                                                            <p class=" bold">$30</p>
+                                                            <p class=" mt-5">Gluten Free - $35</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-sx-12">                          
+                                                    <div class="row">
+                                                        <div class="col-md-5 col-sm-5 col-xs-5">
+                                                            <img src="img/9inch-homemade.gif">
+                                                        </div>
+                                                        <div class="col-md-7 col-sm-7 col-xs-7 mt-30 pl-10"> 
+                                                            <p class="primary">9 inches</p>
+                                                            <p class=" bold">$45</p>
+                                                            <p class=" mt-5">Gluten Free - $52</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mr-150 ml-150 pt-20">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="box-sm">
+                            <h3 class="namesake-primary text-center menu">Bite Size</h3>
+                            <hr>
+                            <p>Includes cutting, tray, and assortment of fresh fruit and candy toppings<br>1" x 1" piece / 60 bites (2 - 3 bites for a person)</p>
+                            <div class="row text-center">
+                                <img class="img-responsive col-lg-4 col-md-4 col-sm-4 col-xs-4" src="img/bite-colorful-2.png" >
+                                <img class="img-responsive col-lg-4 col-md-4 col-sm-4 col-xs-4" src="img/bite-birthday-2.jpg">
+                                <img class="img-responsive col-lg-4 col-md-4 col-sm-4 col-xs-4" src="img/bite-kisses.jpg"">
+                            </div>
+                            </div>
+                                <div class="col-md-12">  
+                                    <p class="bold">1 square cake - $75</p>
+                                    <p class="bold">1 square cake gluten Free - $85</p>
+                                    <ul class="">
+                                        <li>1 square cake serves 20 - 30 people</li>
+                                        <li>2 square cake serves 30 - 40 people</li>
+                                        <li>3 square cake serves 40 - 50 people </li> 
+                                        <li>4 square cake serves 50 - 60 people</li>
+                                        <li>and larger</li>
+                                    </ul>
+                                    <p>Serving as many people as your heart desires!</p>
+                                </div>
+                                <div class="col-md-6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="event">
+    <div class="row">
+        <div class="box">
+            <div class="col-lg-12">
+                <hr>
+                <h1 class="intro-text text-center menu">Order for Event</h1>
+                
+                <h3 class="text-center mb-10 pt-20">We'll plan your events from vision to cleanup</h3>
+                <p class="text-center mb-50">We take the work out of fun. If you simply need a little more sweetness in life, we've got you covered. <br>This Cheesecake is magic.</p>
+                <h3 class="text-center mb-10">Nobody puts together a memory like Namesake Cheesecake does.</h3>
+                <p class="text-center mb-40">Wedding, birthday, baby shower, engagement, hallowing party, and more.</p>
+
+
+
+                <p class="text-center mb-50"><b>Order Cheesecake for your Event!</b> <br>Email: <a href="mailto:cherith@namesakecheesecake.com"> cherith@namesakecheesecake.com</a><br></p>
+
+
+                <div class="section-content">
+                        <div class="row text-center">
+                          <div class="col-md-4 col-sm-6">
+                            <div class="services-box mb-30"> <img src="img/party-loving.jpg" alt="party cake">
+                                <h2 class="primary pt-20 mb-10">Oh Goodness</h2>
+                <p class="text-center">Cheesecake & Delivery. Sweet and simple.</p>
+
+                            </div>
+                          </div>
+                          <div class="col-md-4 col-sm-6">
+                            <div class="services-box mb-30"><img src="img/whole-disco.jpg" alt="decorated whole cake, Disco cake decarated in silver with light ball">
+                              <h2 class="primary pt-20 mb-10">Sweet! (pun intended)</h2>
+                <p class="text-center">Tasting. Party Planning. Decoration & Cake Setup & Cleanup</p>
+                            </div>
+                          </div>
+                          <div class="col-md-4 col-sm-6">
+                            <div class="services-box mb-30"> <img src="img/vintage.jpg" alt="party Planning">
+                              <h2 class="primary pt-20 mb-10">Kid In a Cake Store</h2>
+                <p class="text-center mb-30">Tasting. Party Planning. Rentals. Decor. Cake Setup & Cleanup</p>
+                            </div>
+                          </div>
+                          
+                        </div>       
+                    </div>
+     
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+</section>
+
+
+
+<section id="where">
+    <div class="row">
+        <div class="box">
+            <div class="col-lg-12 pt-20">
+                <hr>
+                <h1 class="intro-text text-center menu">Where We are</h1>
+                <p class="text-center">
+                On El Camino Real between College Ave and Middle Ave. Next to Shell Station.
+                </p>
+                
+                <div class="col-md-6 col-sm-6">
+
+                        <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
+                    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+                    <div style="overflow:hidden;height:300px;width:98%; margin: 10px auto;"><div id="gmap_canvas" style="height:300px;width:95%;"></div>
+                    <style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.themecircle.net" id="get-map-data">themecircle.net</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(37.44981,-122.17676),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(37.44981, -122.17676)});infowindow = new google.maps.InfoWindow({content:"<b>Namesake Cheesecake</b><br/>425 El Camino Real<br/> MENLO PARK" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>     
+                </div>
+                <div class="col-md-6 col-sm-6  pt-20">
+                    <div class="box">
+                        <p class=""><strong>Phone</strong>&nbsp;&nbsp;<br>
+                            <a href="tel://1-650-833-9529">+1 (650) 833-9529</a>
+                        </p>
+                        <p class=""><strong>Email</strong>&nbsp;&nbsp;<br>
+                            <a href="mailto:cherith@namesakecheesecake.com"> cherith@namesakecheesecake.com</a>
+                        </p>
+                        <p class="mb-1  "><strong>Hours</strong>&nbsp;&nbsp;<br>
+                        <p class="">Monday to Friday: 10am - 6pm<br>Weekend: Pick up by appointment</p>
+                        <p class=""><strong>Address</strong>&nbsp;&nbsp;
+                            <strong> <br><a href="https://www.google.com/maps/place/425+El+Camino+Real,+Menlo+Park,+CA+94025/@37.44981,-122.17676,12z/data=!4m2!3m1!1s0x808fa4b37cb16be3:0xc8006d66c6baabee" target="_blank">425 EL CAMINO REAL, MENLO PARK, CA 94025</a></strong>
+                        </p>
+                    </div>
+
+                        <ul class="row">
+                            <li class="col-md-3 col-sm-3 pt-50 text-center"><a href="https://www.facebook.com/NamesakeCheesecake?fref=photo" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
+
+                            <li class="col-md-3 col-sm-3 pt-50 text-center"><a href="https://www.instagram.com/namesake_cheesecake/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
+                            <li class="col-md-3 col-sm-3 pt-50 text-center"><a href="https://www.pinterest.com/namesakecake/namesake-cheesecake-main-board/" target="_blank"><i class="fa fa-pinterest fa-2x"></i></a></li>
+                            
+                            <li class="col-md-3 col-sm-3 pt-50 text-center"><a href="http://www.yelp.com/biz/namesake-cheesecake-menlo-park" target="_blank"><i class="fa fa-yelp fa-2x"></i></a></li>
+                            <!--<li class="col-md-4 col-sm-4 pt-50 text-center"><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>-->
+                        </ul>
+                </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            </div>
+        </section>
+<!-- <section>
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Contact
+                        <strong>form</strong>
+                    </h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, vitae, distinctio, possimus repudiandae cupiditate ipsum excepturi dicta neque eaque voluptates tempora veniam esse earum sapiente optio deleniti consequuntur eos voluptatem.</p>
+                    <form role="form">
+                        <div class="row">
+                            <div class="form-group col-lg-4">
+                                <label>Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control">
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-group col-lg-12">
+                                <label>Message</label>
+                                <textarea class="form-control" rows="6"></textarea>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <input type="hidden" name="save" value="contact">
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <section>
+        <div class="row" id="about">
+            <div class="box">
+                <div class="col-lg-12 pr-30 pl-30">
+                    <hr>
+                    <h1 class="text-center mb-30 mt-40 menu">History of Namesake Cheesecake</h1>
+                    <div class="row">
+                        <div class="col-md-5 col-sm-6">
+                            <img class="img-responsive img-border img-center mb-10 mt-20" src="img/cherithandcherith.jpg" alt="">
+                            <p class="mb-30 text-center pl-10 pr-10">Cherith Spicer and Mrs. Cherith Lorraine Rickey at her birth day dinner. 2001</p>
+                            <img class="img-responsive img-border img-center mb-10" src="img/lorraine.jpg" alt="">
+                            <p class="mb-30 text-center pr-10 pl-10">Cherith Spicer when she inherited the cheesecake recipe in 2004 and and Mrs. Cherith Lorraine Rickey.</p>
+                        </div>
+                        <div class="col-md-7 col-sm-6">
+                            <hr class="visible-xs">
+                            <p class="mr-30 ml-30 pt-20" >Hi! My name is Cherith Spicer and I started Namesake Cheesecake to honor my dear family friend, Cherith Lorraine, for whom I am named.</p>
+                            <h1 class="mb-15 text-center pt-10">In Honor of Mrs. Lorraine Ricky</h1>
+                            <p>Cherith Lorraine was a wife, mother, grandmother, friend and hostess. Along with her husband, John Rickey, she co-owned several Bay Area restaurants, including Rick’s Swiss Chalet, Dinah’s Shack and Rickey’s Hyatt House in Palo Alto. Over the years she perfected a cheesecake recipe that was shared by friends, family and patrons of her restaurants.</p>
+                            <h1 class="mb-20 text-center pt-10">Good Times Together</h1>
+                            <p class="mb-30 text-center">I was one of the lucky friends who enjoyed the cheesecake on many occasions. Her cheesecake was the highlight of holiday parties and family get togethers. The recipe was kept secret, even from her family.</p>
+
+                            <p class="mb-30 text-center">The only person she shared the recipe with was me. She gave me the recipe when I promised that I would create a company with that recipe. I started Namesake Cheesecake to continue the tradition of excellent cheesecake for good times together, whether it’s a party at home, a dinner out, or a catered event.</p>
+                        </div>              
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="more-pics">
+            <div class="row">
+                <div class="box">
+                    <div class="col-lg-12">
+                        <hr>
+                        <h1 class="intro-text text-center mb-50 menu">Gellery</h1>
+                        <div class="section-content">
+                           
+                        </div>
+                    </div>
+                
+<!--modal pictures-->
+        <div class="container">    
+   
+                
+        
+        <ul class="row">      
+            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="img-responsive" src="img/holiday.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="img-responsive" src="img/bitesize10.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="img-responsive" src="img/vintage.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="img-responsive" src="img/bitesize5.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="img-responsive" src="img/bitesize6.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="img-responsive" src="img/bitesize9.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="img-responsive" src="img/valentine.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="img-responsive" src="img/party-blue-2.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="img-responsive" src="img/bite-50.png">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="img-responsive" src="img/party-candy-3.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="img-responsive" src="img/party-candy.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="img-responsive" src="img/party-flower.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="img-responsive" src="img/birthday-vivian.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="img-responsive" src="img/party-loving.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="img-responsive" src="img/party-tray.jpg">
+            </li>
+            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img class="img-responsive" src="img/valentine-3.jpg">
+            </li>
+          </ul>             
+    </div> <!-- /container -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">         
+          <div class="modal-body">                
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal end-->
+</div> 
+</div>
+    
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>               
+        </section>
+     
+
+
+
+        <section id="faq">
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 pr-30 pl-30">
+                    <hr>
+                    <h1 class="intro-text text-center menu mb-30">Help - Questions
+                    </h1>
+                    <div class="row">
+                        <div class="col-lg-12 pr-30 pl-30">
+                        <p><strong>Do you have cakes/slices ready for purchase at the store without placing an order?</strong></p>
+                        <p class="mb-20 mt--7">We will always do our best to have available products for walk-ins. It is however, a first come first serve bases. We ask for a 48 business hour advance and it is highy suggested. Each layer is specially created according to the original recipe over a secret two day process. The result? The most memorable cheesecake experience you have ever had.</p>
+                        <p><strong>Do you deliver cake?</strong></p>
+                        <p class="mb-20 mt--7">We deliver depending on quantity of cakes.</p>
+                        <p><strong>Where is the location I can pick up cake?</strong></p>
+                        <p class="mb-20 mt--7">Our store <a href="https://www.google.com/maps/place/425+El+Camino+Real,+Menlo+Park,+CA+94025/@37.44981,-122.17676,17z/data=!3m1!4b1!4m2!3m1!1s0x808fa4b37cb16be3:0xc8006d66c6baabee" target="_blank"> - 425 EL CAMINO REAL, MENLO PARK, CA 94025</a></p>
+                        <p><strong>How can I place an order?</strong></p>
+                        <p class="mb-30 mt--7">Please call <a href="tel://1-650-833-9529">+1 (650) 833-9529</a> or email at  <strong><a href="mailto:cherith@namesakecheesecake.com"> cherith@namesakecheesecake.com</span></a></strong></p>
+                        <p><strong>What is hours?</strong></p>
+                        <p class="mb-30 mt--7">Monday to Friday: 10am - 6pm<br>Weekend: By appointment only</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+   
+    <!-- /.container -->
+
+    <footer>
+        <div class="box">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Namesake Cheesecake</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Google Analitics-->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75789976-1', 'auto');
+  ga('send', 'pageview');
+    </script>
+    <!--Google Analitics script ends-->
+    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/photo-gallery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>
